@@ -4,7 +4,7 @@ Gibbs_Sampling
 Introduction
 ------------
 
-In this project density estimation using Gibbs Sampling is done. We are provided with [Adult income dataset] (https://archive.ics.uci.edu/ml/datasets/adult) as train data and test data. We are already provided with BayesNet on the train data. Using this Bayes Net, Gibbs Sampler will generate samples, then for each data-point in test data probability with Bayes Net and probability from sample generation will be compared. Mean squared error is used as error measure.
+In this project density estimation using Gibbs Sampling is done. We are provided with [Adult income dataset](https://archive.ics.uci.edu/ml/datasets/adult) as train data and test data. We are already provided with BayesNet on the train data. Using this Bayes Net, Gibbs Sampler will generate samples, then for each data-point in test data probability with Bayes Net and probability from sample generation will be compared. Mean squared error is used as error measure.
 
 Directory Structure
 -------------------
