@@ -4,7 +4,7 @@ Gibbs_Sampling
 Introduction
 ------------
 
-In this project density estimation using Gibbs Sampling is done. We are provided with [Adult income dataset](https://archive.ics.uci.edu/ml/datasets/adult) as train data and test data. We are already provided with BayesNet on the train data. Using this Bayes Net, Gibbs Sampler will generate samples, then for each data-point in test data probability with Bayes Net and probability from sample generation will be compared. Mean squared error is used as error measure.
+In this project density estimation using Gibbs Sampling is done. We are provided with [Adult income dataset](https://archive.ics.uci.edu/ml/datasets/adult) as train data and test data. We are already provided with [BayesNet](Sampler/chowliu.py) on the train data. Using this Bayes Net, Gibbs Sampler will generate samples, then for each data-point in test data probability with Bayes Net and probability from sample generation will be compared. Mean squared error is used as error measure.
 
 Directory Structure
 -------------------
@@ -22,7 +22,7 @@ Directory Structure
 Executing
 ---------
 
-After fixing the number of samples and burn\_in, run $python Gibbs_Sampling.py
+After fixing 'number of samples' and 'burn\_in', run $python Gibbs_Sampling.py
 
 Developed by
 ------------
