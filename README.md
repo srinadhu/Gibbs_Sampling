@@ -19,7 +19,10 @@ Directory Structure
 
 ---[report.pdf](report.pdf)
 
+Executing
+---------
 
+After fixing the number of samples and burn\_in, run $python Gibbs_Sampling.py
 
 Developed by
 ------------
